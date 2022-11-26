@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    background-color:white;
+    width:auto;
+    height: auto;
+}
+
+main{
+    margin: 20px;
+}
+
+/* NOME DO JOGO */
+
+    h1{
+        font-size: 24px;
+        color: black;
+        text-transform:uppercase;
+        padding: 10px;
+        background-color: aqua;
+    }
+
+/* NOME DO JOGO */
+
+/* FOTO DO JOGO */
+
+    img.foto{
+    height: 80%;
+    width: 80%;
+    }
+
+    .foto{
+    background-color: brown;
+
+}
+/* FOTO DO JOGO */
+
+/* BAIXO */
+
+    /* DATA LANCAMENTO */
+        h2{
+            font-size: 12px;
+            color: black;
+            font-style: italic;
+        }
+    /* DATA LANCAMENTO */
+
+    .baixo{
+        width: 50%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: center;
+        padding:5px;
+    }
+        /* LOGOS */
+
+            img.platp{
+                height: 10%;
+                width: 10%;
+            }
+
+            img.platx{
+                height: 9%;
+                width: 9%;
+            }
+
+            img.platn{
+                height: 10%;
+                width: 10%;
+            }
+
+        /* LOGOS */
+        
+/* BAIXO */
