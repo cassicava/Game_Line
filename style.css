@@ -4,23 +4,43 @@
 }
 
 body {
-    background-color:white;
+    background-color:black;
     width:auto;
     height: auto;
 }
 
 main{
-    margin: 20px;
+    margin-left: 35px;
+    height: 300px;
 }
+
+
+/* LINHA DO TEMPO */
+
+    .lt{
+        position: fixed;
+        left: 5px;
+        height: 300px;
+    }
+    .pp{
+        position: fixed;
+        left: 0px;
+        top: 145px;
+        height: 30px;
+        width: 30px;
+    }
+
+/* LINHA DO TEMPO */
+
 
 /* NOME DO JOGO */
 
     h1{
         font-size: 36px;
-        color: black;
+        color: white;
         text-transform:uppercase;
-        padding: 10px;
-        background-color: aqua;
+        padding: 5px;
+        padding-top: 15px;
         font-family: 'Fjalla One', sans-serif;
     }
 
@@ -41,15 +61,14 @@ main{
     /* DATA LANCAMENTO */
         h2{
             font-size: 18px;
-            color: black;
+            color: white;
             font-style: italic;
             font-family:Arial, Helvetica, sans-serif
         }
     /* DATA LANCAMENTO */
 
     .baixo{
-        width: 50%;
-        background-color: aquamarine;
+        width: 60%;
         display: flex;
         justify-content:space-between;
         align-items:center;
@@ -76,3 +95,4 @@ main{
         /* LOGOS */
         
 /* BAIXO */
+
