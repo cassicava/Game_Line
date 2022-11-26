@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Fjalla One', sans-serif;
 }
 
 body {
@@ -17,11 +16,12 @@ main{
 /* NOME DO JOGO */
 
     h1{
-        font-size: 24px;
+        font-size: 36px;
         color: black;
         text-transform:uppercase;
         padding: 10px;
         background-color: aqua;
+        font-family: 'Fjalla One', sans-serif;
     }
 
 /* NOME DO JOGO */
@@ -29,23 +29,21 @@ main{
 /* FOTO DO JOGO */
 
     img.foto{
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
     }
 
-    .foto{
-    background-color: brown;
-
-}
 /* FOTO DO JOGO */
 
 /* BAIXO */
 
     /* DATA LANCAMENTO */
         h2{
-            font-size: 12px;
+            font-size: 18px;
             color: black;
             font-style: italic;
+            font-family:Arial, Helvetica, sans-serif
         }
     /* DATA LANCAMENTO */
 
@@ -56,23 +54,23 @@ main{
         justify-content:space-between;
         align-items:center;
         flex-direction: center;
-        padding:5px;
+        padding: 10px;
     }
         /* LOGOS */
 
             img.platp{
-                height: 10%;
-                width: 10%;
+                height: 12%;
+                width: 12%;
             }
 
             img.platx{
-                height: 9%;
-                width: 9%;
+                height: 11%;
+                width: 11%;
             }
 
             img.platn{
-                height: 10%;
-                width: 10%;
+                height: 12%;
+                width: 12%;
             }
 
         /* LOGOS */
