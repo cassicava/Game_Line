@@ -19,8 +19,9 @@ main{
 
     .lt{
         position: fixed;
-        left: 5px;
+        left: 7.5px;
         height: 300px;
+        width: 15px;
     }
     .pp{
         position: fixed;
