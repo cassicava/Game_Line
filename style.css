@@ -43,7 +43,7 @@ main{
         text-transform:uppercase;
         padding-top: 30px;
         padding-bottom: 5px;
-        margin-left: 50px;
+        margin-left: 40px;
         font-family: 'Fjalla One', sans-serif;
     }
 
@@ -52,8 +52,8 @@ main{
 /* FOTO DO JOGO */
 
     img.foto{
-        height: 70%;
-        width: 70%;
+        height: 80%;
+        width: 80%;
         border-radius: 30px;
         margin-left: 15px;
     }
