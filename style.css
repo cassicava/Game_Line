@@ -10,17 +10,27 @@ body {
 }
 
 main{
-    margin-left: 60px;
+    margin-left: 20px;
+}
+
+.jogo{
     height: 300px;
 }
 
-
 /* LINHA DO TEMPO */
+/* float: left; */
 
     .lt{
         position: fixed;
-        left: 0;
+        left: 5px;
         height: 300px;
+        z-index: -1;
+    }
+    .p{
+        float: left;
+        height: 300px;
+        z-index: 1;
+        margin-left: -15px;
     }
 
 /* LINHA DO TEMPO */
@@ -32,8 +42,9 @@ main{
         font-size: 36px;
         color: rgb(255, 255, 255);
         text-transform:uppercase;
-        padding: 5px;
-        padding-top: 15px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin-left: 40px;
         font-family: 'Fjalla One', sans-serif;
     }
 
@@ -42,9 +53,10 @@ main{
 /* FOTO DO JOGO */
 
     img.foto{
-        height: 90%;
-        width: 90%;
+        height: 70%;
+        width: 70%;
         border-radius: 30px;
+        margin-left: 15px;
     }
 
 /* FOTO DO JOGO */
@@ -53,36 +65,38 @@ main{
 
     /* DATA LANCAMENTO */
         h2{
-            font-size: 18px;
+            font-size: 20px;
             color: rgba(255, 255, 255, 0.832);
             font-style: italic;
-            font-family:Arial, Helvetica, sans-serif
+            font-family:Arial, Helvetica, sans-serif;
         }
     /* DATA LANCAMENTO */
 
     .baixo{
         width: 60%;
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         align-items:center;
         flex-direction: center;
-        padding: 10px;
+        margin-left: 40px;
+        margin-top: 10px;
+        
     }
         /* LOGOS */
 
             img.platp{
-                height: 12%;
-                width: 12%;
+                height: 15%;
+                width: 15%;
             }
 
             img.platx{
-                height: 11%;
-                width: 11%;
+                height: 13%;
+                width: 13%;
             }
 
             img.platn{
-                height: 12%;
-                width: 12%;
+                height: 15%;
+                width: 15%;
             }
 
         /* LOGOS */
