@@ -14,7 +14,7 @@ main{
 }
 
 .jogo{
-    height: 300px;
+    height: 350px;
 }
 
 /* LINHA DO TEMPO */
@@ -22,7 +22,7 @@ main{
     .lt{
         position: fixed;
         left: 5px;
-        height: 300px;
+        height: 350px;
         z-index: -1;
     }
     .p{
@@ -38,11 +38,11 @@ main{
 /* NOME DO JOGO */
 
     h1{
-        font-size: 30px;
+        font-size: 28px;
         color: rgb(255, 255, 255);
         text-transform:uppercase;
         padding-top: 30px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         margin-left: 40px;
         font-family: 'Fjalla One', sans-serif;
     }
